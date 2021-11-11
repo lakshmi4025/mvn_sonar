@@ -51,15 +51,16 @@
   </dependencies>
   
   
-  <distributionManagement>
+ <distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-      <!-- <url>http://34.72.104.220:8081/nexus/content/repositories/snapshots</url> -->
-           <url>http://34.93.60.102:8081//repository/maven-snapshots</url>
+      <!-- <url>http://34.93.60.102:8081//nexus/content/repositories/snapshots</url> -->
+           <url>http://34.93.60.102:8081//repository/maven-snapshots</url> 
     </snapshotRepository>
     <repository>
       <id>nexus</id>
-      <url>http://34.93.60.102:8081//nexus/content/repositories/releases</url>
+        <!--<url>http://34.93.60.102:8081//repository/maven-snapshots/</url> -->
+	     <url>http://34.93.60.102:8081//repository/maven-releases/</url> 
     </repository>
   </distributionManagement>
   
